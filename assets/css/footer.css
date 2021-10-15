@@ -1,0 +1,41 @@
+/** Footer **/
+
+footer {
+	padding-top: 20px;
+	background-color: #000
+}
+
+/* Copyright section */
+
+.copyright {
+	padding: 0 10px;
+	position: relative;
+	color: #fff
+}
+
+.copyright span {flex-grow: 1}
+
+.copyright img {
+	width: 40px;
+	height: 40px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%)
+}
+.copyright img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0)
+}
+
+/* Legal notices section */
+
+.legal-notices {padding-top: 60px}
+
+.legal-notices .col {padding-bottom: 10px}
+
+.legal-notices a {
+	opacity: 0.5;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px
+}
+.legal-notices a:hover {text-decoration: underline}
