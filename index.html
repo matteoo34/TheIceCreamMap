@@ -1,0 +1,369 @@
+<!--
+	The Ice Cream Map, an ice-cream maker / Bootstrap Example Landing Page
+	GitHub repository: https://github.com/matteoo34/TheIceCreamMap
+	Made by Mattéo Legagneux
+	Copyright (C) 2021
+-->
+
+<!DOCTYPE html>
+
+<html prefix="og: http://ogp.me/ns#" lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Bootstrap example landing page">
+		<meta name="keywords" content="ice-cream, glace, sorbet, parfums, desserts, mattéo, legagneux, matteoo34, diginamic">
+		<meta name="author" content="Mattéo Legagneux">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://matteoo34.github.io/TheIceCreamMap">
+		<meta property="og:site_name" content="matteoo34's GitHub">
+		<meta property="og:title" content="The Ice Cream Map">
+		<meta property="og:description" content="A Bootstrap example landing page on the ice-cream theme.">
+		<meta property="og:image" content="https://matteoo34.github.io/TheIceCreamMap/assets/images/slide1.jpg">
+		<meta name="twitter:card" content="summary_large_image">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="apple-touch-icon" type="image/x-icon" href="favicon.ico">
+		<!-- CSS Bootstrap only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<title>The Ice Cream Map • Bootstrap Landing Page</title>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header class="container-fluid">
+			<nav class="navbar navbar-expand-xl navbar-light row">
+				<!-- Navbar logo and brand -->
+				<div class="brand col-4 d-flex align-items-center">
+					<a href="" class="navbar-logo"><img src="assets/images/logo.png"></a>
+					<a href="" class="navbar-brand">The Ice Cream Map</a>
+				</div>
+				<!-- Navbar links -->
+				<div class="nav col-8 d-none d-md-block text-end">
+					<a href="#presentation-title" class="nav-link">Présentation</a>
+					<a href="#ice-creams-title" class="nav-link">Nos parfums</a>
+					<a href="#desserts-title" class="nav-link">Nos desserts</a>
+					<a href="#contact-title" class="nav-link">Contact</a>
+				</div>
+				<!-- Dropdown menu toggle button -->
+				<div class="col-8 d-block d-md-none text-end">
+					<button class="navbar-toggler" type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target=".navbar-collapse" 
+					aria-controls="navbar-collapse" 
+					aria-expanded="false" 
+					aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+				<!-- Dropdown menu -->
+				<div class="collapse navbar-collapse">
+					<a href="#presentation-title" class="nav-link">Présentation</a>
+					<a href="#ice-creams-title" class="nav-link">Nos parfums</a>
+					<a href="#desserts-title" class="nav-link">Nos desserts</a>
+					<a href="#contact-title" class="nav-link">Contact</a>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Carousel -->
+		<div class="container-fluid carousel-container">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<!-- Slides -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="assets/images/slide1.jpg" class="d-block w-100" alt="Carousel slide 1">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/slide2.jpg" class="d-block w-100" alt="Carousel slide 2">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/slide3.jpg" class="d-block w-100" alt="Carousel slide 3">
+					</div>
+				</div>
+				<!-- Slide indicators -->
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<!-- Prev button -->
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<!-- Next button -->
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+
+		<!-- Content -->
+		<article class="container-fluid">
+			<!-- Content container -->
+			<section class="container">
+				<!-- Presentation -->
+				<section class="presentation-container">
+					<h1 id="presentation-title">Présentation</h1><br>
+					<h4>Qui sommes-nous ?</h4>
+					<p class="description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum, temporibus ratione, eum repellat minima sequi, impedit tenetur velit delectus maxime autem obcaecati labore veniam optio totam incidunt officia tempore!
+					</p>
+					<div class="row">
+						<div class="col col-12 col-md-6 desc">
+							<h4>20 ans d'expérience</h4>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.
+						</div>
+						<div class="col col-12 col-md-6">
+							<img src="assets/images/presentation1.jpg" class="w-100">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-12 col-md-6">
+							<img src="assets/images/presentation2.jpg" class="w-100">
+						</div>
+						<div class="col col-12 col-md-6 desc">
+							<h4>Du sorbet à la glace</h4>
+							Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Nesciunt quas, dolorum neque in non, velit libero ratione, placeat nemo unde nisi quos amet quia veniam sed, aliquam delectus? Praesentium, ducimus?
+							Voluptates eius ex, nulla mollitia deserunt dolor consequatur, minima ipsa reprehenderit molestias culpa!
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-12 text-center">
+							<a href="#contact-title" class="button btn-more">Nous contacter</a>
+						</div>
+					</div>
+				</section>
+				<!-- Ice-creams & sorbets -->
+				<section class="ice-creams-container">
+					<h1 id="ice-creams-title">Nos parfums</h1>
+					<p class="description">
+						Tous nos parfums sont certifiés bio.<br>
+						Pour plus d'informations, veuillez <a href="#contact-title">nous contacter</a>.
+					</p>
+					<div class="row">
+						<div class="col col-12 col-md-6">
+							<div class="ice-cream">
+								<h4>Chocolat</h4>
+								<div class="image-container">
+									<img src="assets/images/chocolate.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit hic exercitationem eligendi? Vel porro at, odit placeat eos ut, harum beatae nam, voluptas dolor, dolorum ducimus? Perspiciatis eaque, corporis!
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-6">
+							<div class="ice-cream">
+								<h4>Fraise</h4>
+								<div class="image-container">
+									<img src="assets/images/fraise.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus velit quaerat iusto sunt, incidunt fugiat.
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-6">
+							<div class="ice-cream">
+								<h4>Mangue</h4>
+								<div class="image-container">
+									<img src="assets/images/mango.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit hic exercitationem eligendi?
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-6">
+							<div class="ice-cream">
+								<h4>Pistache</h4>
+								<div class="image-container">
+									<img src="assets/images/pistachio.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Enim, aperiam corporis dignissimos qui incidunt omnis nisi? Corporis?
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-12 text-center">
+							<a href="#" class="button btn-more">Voir tous nos parfums</a>
+						</div>
+					</div>
+				</section>
+				<!-- Desserts -->
+				<section class="desserts-container">
+					<h1 id="desserts-title">Nos desserts</h1>
+					<p class="description">
+						Les desserts glacés que nous vous proposons sont tous 100% bio.<br>
+						Pour plus d'informations, veuillez <a href="#contact-title">nous contacter</a>.
+					</p>
+					<div class="row">
+						<div class="col col-12 col-md-6">
+							<div class="dessert">
+								<h4>Banana split</h4>
+								<div class="image-container">
+									<img src="assets/images/banana-split.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe sapiente officia!
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-6">
+							<div class="dessert">
+								<h4>Poire Belle-Hélène</h4>
+								<div class="image-container">
+									<img src="assets/images/belle-helene.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus velit quaerat iusto sunt, incidunt fugiat.
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-6">
+							<div class="dessert">
+								<h4>Dame blanche</h4>
+								<div class="image-container">
+									<img src="assets/images/dame-blanche.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit hic exercitationem eligendi? Vel porro at, odit placeat eos ut, harum beatae nam, voluptas dolor, dolorum ducimus? Perspiciatis eaque, corporis!
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-6">
+							<div class="dessert">
+								<h4>Profiteroles</h4>
+								<div class="image-container">
+									<img src="assets/images/profiteroles.jpg" class="w-100">
+								</div>
+								<p>
+									Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Enim, aperiam corporis dignissimos qui incidunt omnis nisi? Corporis?
+								</p>
+								<div class="link-container">
+									<a href="#" class="button btn-see-product">
+										<span>Plus d'infos</span>
+										<ion-icon name="ice-cream-outline"></ion-icon>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-12 text-center">
+							<a href="#" class="button btn-more">Voir tous nos desserts</a>
+						</div>
+					</div>
+				</section>
+				<section class="contact-container">
+					<h1 id="contact-title">Nous contacter</h1>
+					<div class="row">
+						<div class="contact-description col col-12 col-md-6">
+							<p class="description">
+								Une question ? Une suggestion ?<br>
+								N'hésitez pas à nous en faire part via le formulaire
+							</p>
+						</div>
+						<div class="col col-12 col-md-6 text-center">
+							<form method="GET" action="" class="contact-form">
+								<label for="">
+									Votre e-mail<br>
+									<input type="email" name="email">
+								</label>
+								<label for="">
+									Votre sujet<br>
+									<input type="text" name="object">
+								</label>
+								<label for="">
+									Votre message<br>
+									<textarea name="message"></textarea>
+								</label>
+								<button type="submit" class="button">Envoyer</button>
+							</form>
+						</div>
+					</div>
+				</section>
+			</section>
+		</article>
+
+		<!-- Footer -->
+		<footer class="container-fluid">
+			<p class="copyright d-flex">
+				<span>Copyright &copy; 2021 The Ice Cream Map.<br>Tous droits réservés.</span>
+				<img src="assets/images/logo.png">
+			</p>
+			<div class="legal-notices row align-items-center text-center">
+				<div class="col col-12 col-sm-4">
+					<a href="#">Mentions légales</a>
+				</div>
+				<div class="col col-12 col-sm-4">
+					<a href="#">Politique de confidentialité</a>
+				</div>
+				<div class="col col-12 col-sm-4">
+					<a href="#">A propos des cookies</a>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/main.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+
+</html>
