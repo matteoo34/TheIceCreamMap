@@ -1,7 +1,6 @@
 # The Ice Cream Map
 A Bootstrap example landing page on the ice-cream theme.  
 Made by Mattéo Legagneux - Copyright (C) 2021  
-https://matteoo34.github.io/TheIceCreamMap  
+https://matteokeole.github.io/TheIceCreamMap  
 
-
-![Logo](https://matteoo34.github.io/TheIceCreamMap/favicon.ico)
+![Logo](https://matteokeole.github.io/TheIceCreamMap/favicon.ico)
