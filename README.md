@@ -1,3 +1,3 @@
 # The Ice Cream Map
 
-Bootstrap example landing page
+Bootstrap landing page
